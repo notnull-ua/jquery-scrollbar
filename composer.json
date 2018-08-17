@@ -1,0 +1,35 @@
+{
+  "name": "notnull-ua/yii2-jquery-scrollbar",
+  "description": "Yii 2 jQuery Scrollbar Asset",
+  "keywords": [
+    "yii2",
+    "jquery",
+    "scrollbar",
+    "scroll",
+    "textarea"
+  ],
+  "homepage": "http://gromo.github.io/jquery.scrollbar/",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladyslav Tychyna",
+      "email": "tychyna.v@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.4",
+    "bower-asset/jquery.scrollbar": "0.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii\\jquery\\scrollbar\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
